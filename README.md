@@ -86,6 +86,20 @@ Keyword arguments:
  * out: output I/O to draw graph (default: `STDERR`)
  * mode: symbol to specify `:compact` mode (default: `:normal`)
 
+Return value: `nil`
+
+### Astarisk.draw_graph
+
+Draw a graph and return it as a `String`
+
+Argument:
+ * AST node (an instance of `RubyVM::AbstractSyntaxTree::Node`)
+
+Keyword arguments:
+ * mode: symbol to specify `:compact` mode (default: `:normal`)
+
+Return value: a `String` of graph
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/tagomoris/astarisk.
