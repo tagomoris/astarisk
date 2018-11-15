@@ -10,7 +10,8 @@ end
 
 module Astarisk
   def self.draw(node, out: STDERR, mode: :normal)
-    STDERR.print draw_graph(node, mode: mode)
+    out.print draw_graph(node, mode: mode)
+    nil
   end
 
   def self.stringify_node(node)
